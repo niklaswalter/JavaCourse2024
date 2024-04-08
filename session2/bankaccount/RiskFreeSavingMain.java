@@ -31,9 +31,5 @@ public class RiskFreeSavingMain {
 				+ commission + " is " + valueWithCommission);
 		System.out.println("The value of the money after " + numberOfYears + " years when there is no commission is "
 				+ valueWithoutCommission);
-
-		
-		
-
 	}
 }

@@ -7,7 +7,6 @@ package session2.cosine;
  * Otherwise, an overloaded method is called with int argument: the argument in
  * this case is the ratio between the given number and Pi.
  *
- * @author Andrea Mazzon
  */
 public class CosineOverload {
 

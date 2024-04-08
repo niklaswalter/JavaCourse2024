@@ -35,7 +35,7 @@ public class ARandomSwitch {
 		default: // if no match occurs
 			System.out.println("The selected number is odd ");
 			/*
-			 * The last statement, following the default, doesn’t have a break because the
+			 * The last statement, following the default, does not have a break because the
 			 * execution just falls through to where the break would have taken it anyway.
 			 * You could put a break at the end of the default statement with no harm if you
 			 * considered it important for style’s sake.

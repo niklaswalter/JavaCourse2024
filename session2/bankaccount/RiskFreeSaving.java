@@ -46,6 +46,7 @@ public class RiskFreeSaving {
 	 *                           withdrawn
 	 * @return the value of money which gets withdrawn
 	 */
+
 	double getMoney(double initialInvestment, int numberOfYears) {
 		// note the use of Math.pow(double a, double b)
 		double futureValueOfMoney = initialInvestment * Math.pow((1 + annualRiskFreeRate), numberOfYears)

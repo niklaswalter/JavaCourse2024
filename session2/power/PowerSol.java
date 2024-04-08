@@ -11,7 +11,7 @@ package session2.power;
  *
  */
 
-public class Power {
+public class PowerSol {
 
 	double result; // only definition, not initialization
 
@@ -24,6 +24,8 @@ public class Power {
 	 */
 	void computePower(double base, int exponent) {
 		//your code here
+		result = Math.pow(base, exponent);// note: Java method
+		System.out.println("Computing " + base + " to the power of " + exponent + ". The result is " + result);
 	}
 
 	/**
@@ -34,6 +36,16 @@ public class Power {
 	 * @param exponent
 	 */
 	void computePower(double base, double exponent) {
-		// your code here
+		// we distinguish the two cases
+		if (base >= 0 || exponent == Math.floor(exponent)) {
+			result = Math.pow(base, exponent);
+			System.out.println("Computing " + base + " to the power of " + exponent + ". The result is " + result);
+		} else {
+			// we warn the user!
+			System.out.println("Computing " + base + " to the power of " + exponent
+					+ ". You get a complex number: is that what you want?");
+		}
 	}
+
+	
 }

@@ -9,7 +9,7 @@ public class HelloWorld {
 
 		// special Java feature: String can be initialized with quoted text.
 		String myString = "Hello world!";// we create a String reference and we initialize it
-			
+
 		// or:
 		
 		// typical way to construct objects: more about this later on

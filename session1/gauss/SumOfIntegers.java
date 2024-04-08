@@ -9,6 +9,7 @@ public class SumOfIntegers {
 	 * @param lastNumber: final number of the sum
 	 * @return the sum from 1 to lastNumber
 	 */
+
 	int sumUpToNumber(int lastNumber) {
 		int sum = 0;
 		System.out.println("Looping...");
@@ -16,6 +17,7 @@ public class SumOfIntegers {
 			System.out.print(i + " "); //We use print instead of println: We do not want line breaks!
 			sum += i; //sum = sum + i;
 		}
+		System.out.println();
 		return sum;
 	}
 	
@@ -25,6 +27,7 @@ public class SumOfIntegers {
 	 * @param lastNumber: final number of the sum
 	 * @return the sum from 1 to lastNumber
 	 */
+
 	int sumUpToNumberWithGauss(int lastNumber) {
 		int sumWithGauss = lastNumber * (lastNumber + 1) / 2;
 		return sumWithGauss;	

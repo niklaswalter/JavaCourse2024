@@ -40,7 +40,6 @@ public class MessageWithOverloading {
 	void printMessage() {// this method prints the message contained in the string messageToBePrinted of the object
 		System.out.println(messageToBePrinted);
 	}
-	
 
 	/*
 	 * This method also prints a string: not the one contained in
