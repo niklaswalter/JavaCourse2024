@@ -28,6 +28,7 @@ public class Message {
 	 * different ways. We will see in some time how to deal with such a situation.
 	 */
 	void printMessageWithArgument(String messageFromMethod) {
+
 		System.out.println(messageFromMethod);
 	}
 
