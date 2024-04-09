@@ -7,6 +7,7 @@ package session2.triangleperimeter;
  */
 
 public class PerimeterMain {
+
 	public static void main(String[] args) {
 
 		// here we only have the default constructor

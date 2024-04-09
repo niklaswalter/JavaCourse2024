@@ -17,7 +17,7 @@ public class MessageWithOverloading {
 
 	/*
 	 * Default constructor, because it has no arguments. Note: no return type. This
-	 * is different from void, when the method returns nothing but you still
+	 * is different from void, when the method returns nothing, but you still
 	 * have the option to make it return something else (changing from void to the type
 	 * of the object it returns).
 	 */
@@ -38,6 +38,7 @@ public class MessageWithOverloading {
 	}
 
 	void printMessage() {// this method prints the message contained in the string messageToBePrinted of the object
+
 		System.out.println(messageToBePrinted);
 	}
 
@@ -47,6 +48,7 @@ public class MessageWithOverloading {
 	 * methods do the same thing, but in different ways. So, we could overload..
 	 */
 	void printMessage(String messageViaMethod) {
+
 		System.out.println(messageViaMethod);
 	}
 }

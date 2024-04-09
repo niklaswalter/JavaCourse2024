@@ -25,8 +25,8 @@ public class Mortgage {
 		this.age = age; // note the use of this
 		this.amount = amount;
 
-		System.out.println("The name of our new customer is " + name + ". He is " + age + " years old."
-				+ " We lend him/her " + amount + " euros.");
+		System.out.println("The name of our new customer is " + name + ". She/he is " + age + " years old."
+				+ " We lend her/him " + amount + " euros.");
 
 		loansSum += amount; // the field is incremented, and will be the same for every Mortgage object
 		// or loansSum = loansSum + amount;

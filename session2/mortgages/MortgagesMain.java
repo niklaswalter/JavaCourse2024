@@ -9,11 +9,11 @@ package session2.mortgages;
  */
 public class MortgagesMain {
 
-	public static void main(String[] striings){
+	public static void main(String[] strings){
 		Mortgage firstCustomer = new Mortgage("Smith", 35, 3E5);
 		Mortgage secondCustomer = new Mortgage("Muller", 42, 2E5);
-		Mortgage thirdCustomer = new Mortgage("Bianchi", 19, 1.3E5);
-		Mortgage fourthCustomer = new Mortgage("Lopez", 37, 3.4E5);
-		Mortgage fifthCustomer = new Mortgage("Favre", 39, 2.1E5);
+		Mortgage thirdCustomer = new Mortgage("Jackson", 19, 1.3E5);
+		Mortgage fourthCustomer = new Mortgage("Fries", 37, 3.4E5);
+		Mortgage fifthCustomer = new Mortgage("Mustermann", 39, 2.1E5);
 	}
 }

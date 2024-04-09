@@ -16,7 +16,7 @@ public class Calculator {
 	}
 
 	/*
-	 * static method: it is not tied to the specific value of the non static fields
+	 * static method: it is not tied to the specific value of the non-static fields
 	 * of the class, and so to the state of the objects of the class
 	 */
 	static double computeRatio(double a, double b) {
@@ -24,7 +24,7 @@ public class Calculator {
 	}
 
 	/*
-	 * This is method cannot be static: it has access to the (non static) fields of
+	 * This is method cannot be static: it has access to the (non -tatic) fields of
 	 * the class, it depends on the state of every object of the class
 	 */
 	double divideBy(double divisor) {

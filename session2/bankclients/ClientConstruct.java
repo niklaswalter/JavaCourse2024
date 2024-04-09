@@ -18,11 +18,11 @@ public class ClientConstruct {
 		 * same! It is basically the one returned by the static method createNewClient.
 		 * Then we can perform multiple calling.
 		 */
-		Client cristiano = Client.createNewClient("00011100").name("Schneider").advisor("Smith")
-				.nationality("German").cityOfResidence("Munich").age(37).
+		Client emily = Client.createNewClient("00011100").name("Schneider").advisor("Smith")
+				.nationality("British").cityOfResidence("Munich").age(37).
 				riskAversionIndex(0.4).sumInvested(1E4).hasInsurance(true);
 
-		cristiano.printName();
-		cristiano.printNationality();	
+		emily.printName();
+		emily.printNationality();
 	}
 }

@@ -2,8 +2,8 @@ package session2.bankaccount;
 
 /**
  * This class is used to compute how much money one gets after a given number of
- * years after investing an initial amount, with a given annual risk free rate
- * and a given commission to be payed at the end. This is an example of
+ * years after investing an initial amount, with a given annual risk-free rate
+ * and a given commission to be paid at the end. This is an example of
  * overloaded constructors: if the commission is not given, its default value is
  * zero
  */
@@ -39,7 +39,7 @@ public class RiskFreeSaving {
 	/**
 	 * This methods returns how much money one gets after a given number of years
 	 * after investing an initial amount, with a given annual risk free rate and a
-	 * given commission to be payed at the end
+	 * given commission to be paid at the end
 	 *
 	 * @param initialInvestment: the initial amount of money invested
 	 * @param numberOfYears:     the number of years after which the money gets
