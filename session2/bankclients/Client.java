@@ -15,7 +15,7 @@ package session2.bankclients;
  * What you could do is to create first your object with your first method, and then to
  * make it set all the other fields, one per line, with dedicated methods. But this would
  * be quite lengthy! What you would like is the possibility to do multiple calling, all at
- * the same line, all for the same object. This way to construct an object in known as as
+ * the same line, all for the same object. This way to construct an object in known as
  * Builder pattern, and uses the return of the reference of the object calling
  * the methods. Also note that we first need a static method to construct the
  * object for the first time.
@@ -120,7 +120,6 @@ public class Client {
 		this.hasInsurance = hasInsurance;
 		return this;
 	}
-
 
 	// we write this method just to check that everything is fine.
 	void printName() {

@@ -23,7 +23,7 @@ public class RiskFreeSavingWithThisMain {
 
 		System.out.println();
 
-		// the overloaded version, where we don't
+		// the overloaded version, where we don't have commission
 		RiskFreeSavingWithThis savingWithoutCommission = new RiskFreeSavingWithThis(annualRiskFreeRate);
 		System.out.println();
 

@@ -42,15 +42,15 @@ public class RiskFreeSavingWithThis {
 		 * commission = 0. Note that this use of this is only possible from inside a
 		 * constructor, not from inside another method. Not only: it must be the first
 		 * instruction inside a constructor.
-		 */		
+		 */
 		this(annualRiskFreeRate, 0);
 		System.out.println("The constructor with one argument is called");
 	}
 
 	/**
 	 * This methods returns how much money one gets after a given number of years
-	 * after investing an initial amount, with a given annual risk free rate and a
-	 * given commission to be payed at the end
+	 * after investing an initial amount, with a given annual risk-free rate and a
+	 * given commission to be paid at the end
 	 *
 	 * @param initialInvestment: the initial amount of money invested
 	 * @param numberOfYears:     the number of years after which the money gets

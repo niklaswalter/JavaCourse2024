@@ -30,10 +30,5 @@ public class TreeMain {
 		 * garbage value, so each primitive field of a class is guaranteed to get an
 		 * initial value
 		 */
-		
-		//mySecondTree.aTreeField = new Tree(4.0);
-		
-		//mySecondTree.makeTheTreeFieldCallAMethod();
-
 	}
 }

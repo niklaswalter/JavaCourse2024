@@ -41,7 +41,7 @@ public class CalculatorTest {
 				+ " and the divisor still " + divisor + ", is " + secondNonStaticResult);
 
 		/*
-		 * Now static method: these are values passed to the method, which does not depend on the values of non static
+		 * Now static method: these are values passed to the method, which does not depend on the values of non-static
 		 * fields of the class.
 		 */
 		double newDividend = 4.5;

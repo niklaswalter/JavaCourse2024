@@ -51,9 +51,4 @@ public class Tree {
 		//System.out.println(a);
 		//error!	
 	}
-	
-	
-	//void makeTheTreeFieldCallAMethod() {
-	//	aTreeField.printHeight();
-	//}
 }
