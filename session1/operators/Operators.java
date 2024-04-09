@@ -35,7 +35,7 @@ public class Operators {
 		double truncatedRatio = a / b; // result is 0
 		System.out.println("The ratio of " + a + " and " + b + " is not " + truncatedRatio + ";");
 		// Note: Integer division truncates, rather than rounds, the result.
-		double correctRatio = a / (double) b; // b gets "upcasted", i.e., it is considered to be a double.
+		double correctRatio = (double) a / b; // b gets "upcasted", i.e., it is considered to be a double.
 		// We will see more on the concept of "upcasting" in the next sessions
 		System.out.println("The ratio of " + a + "" + " and " + b + " is " + correctRatio);
 		int otherTruncatedRatio = (int) correctRatio; // "downcasting"

@@ -11,7 +11,7 @@ public class Testing {
 		double rightEnd = 3;
 
 		System.out.println("The result of the test as a boolean is: "
-				+ test.isInside(testedNumber, leftEnd, rightEnd)/* method called inside the println */);
+				+ test.compactIsInside(testedNumber, leftEnd, rightEnd)/* method called inside the println */);
 
 		int isInsideAsInt = test.isInsideAsInt(testedNumber, leftEnd, rightEnd);
 		

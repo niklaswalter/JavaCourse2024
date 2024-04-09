@@ -14,8 +14,7 @@ public class Comparison {
 	 * @return true if testval is inside the interval, false if not
 	 */
 
-	boolean /* boolean: the method returns a boolean (i.e., true or false) */ isInside(double testedNumber,
-			double leftEnd, double rightEnd) {
+	boolean isInside(double testedNumber, double leftEnd, double rightEnd) {
 		if (testedNumber < leftEnd || testedNumber > rightEnd) {
 			/*
 			 * the return keyword has two purposes: it specifies what value a method will
