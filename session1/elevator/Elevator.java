@@ -8,7 +8,7 @@ public class Elevator {
 			System.out.println("The elevator is at floor number " + floor);
 		}
 
-//		System.out.println(floor);//ERROR!
+		// System.out.println(floor);//ERROR!
 		System.out.println();
 		
 		System.out.println("The elevator is at ground level");

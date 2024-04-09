@@ -14,9 +14,9 @@ public class Mortgage {
 
 	static double loansSum = 0; // static: shared by all the objects. First equal to zero, for the first object.
 	
-	// this field is not meant to be static: it is must be able to vary for every customer
+	// this field is not meant to be static: it must be able to vary for every customer
 	String name;
-	int age; // non static, for the same reason
+	int age; // non-static, for the same reason
 	double amount; // same thing
 
 	//constructor
@@ -35,7 +35,7 @@ public class Mortgage {
 		System.out.println();
 
 		
-		// We want to known when we have exceed the total amount of money we want to lend
+		// We want to know when we have exceeded the total amount of money we want to lend
 		if (loansSum > 1E6) {// 1 million
 			System.out.println("Enough!");
 			/*

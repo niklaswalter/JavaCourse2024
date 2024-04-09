@@ -57,7 +57,6 @@ public class Client {
 		this.hasInsurance = hasInsurance;
 	}
 
-
 	/*
 	 * One could also call directly this constructor to construct an object. However, calling
 	 * the stating method below is a bit more elegant

@@ -15,9 +15,9 @@ public class WhileRandom {
 		 */
 		do {
 			numberOfFlips++; // first you flip!
-		} while (randomNumberGenerator.nextInt(2) == 1); // 0 is tail, 1 is head
-		
-		
+		} while (randomNumberGenerator.nextInt(5) == 1); // 0 is tail, 1 is head
+
+
 		//while (randomNumberGenerator.nextInt(2) == 1);{// 0 is tail, 1 is head
 		//	numberOfFlips++;
 		//}

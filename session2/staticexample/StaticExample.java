@@ -13,6 +13,7 @@ public class StaticExample {
 	int nonStaticField = 3;
 
 	void printFields() { // non-static print method
+
 		System.out.println("Non static field: " + nonStaticField + " Static field: " + staticField);
 	}
 

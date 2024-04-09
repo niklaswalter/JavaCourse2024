@@ -4,7 +4,7 @@ public class MainDivisibleSol {
 
 	public static void main(String[] args) {
 		
-		CheckDivisible checker = new CheckDivisible();
+		CheckDivisibleSol checker = new CheckDivisibleSol();
 		checker.dividend = 12;
 		checker.check();
 		

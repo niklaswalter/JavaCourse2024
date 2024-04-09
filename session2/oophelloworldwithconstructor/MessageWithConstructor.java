@@ -8,7 +8,7 @@ package session2.oophelloworldwithconstructor;
  */
 public class MessageWithConstructor {
 
-	String messageToBePrinted = "Standard message: it can be modified";
+	String messageToBePrinted = "Standard message, which can be modified";
 
 	/*
 	 * Default constructor, because it has no arguments. Note: no return type. This
@@ -23,6 +23,7 @@ public class MessageWithConstructor {
 
 	// this method prints the message contained in the string messageToBePrinted of the object
 	void printMessage() {
+
 		System.out.println(messageToBePrinted);
 	}
 
@@ -33,6 +34,7 @@ public class MessageWithConstructor {
 	 * how to deal with this situation
 	 */
 	void printMessageWithArgument(String messageViaMethod) {
+
 		System.out.println(messageViaMethod);
 	}
 }

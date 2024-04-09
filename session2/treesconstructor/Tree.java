@@ -10,9 +10,7 @@ package session2.treesconstructor;
 public class Tree {
 
 	double height;
-	
-	Tree aTreeField;
-	
+
 	// constructor with a double argument
 	Tree(double heightOfTheNewTree) {
 		System.out.println("A new tree is planted");

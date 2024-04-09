@@ -20,14 +20,17 @@ public class ArrayRandom {
 		int[] arrayToBeFilled = new int[length];
 		//or:
 		//int arrayToBeFilled[] = new int[length]; //the same
+
 		/*
 		 * Note that I have created an array reference (it is an object) and I have initialized
 		 * the array, through new int[length]. The array creation happens at run time
 		 * (length is random, so the compiler cannot know it)
 		 */
 		System.out.println("The array a is " + arrayToBeFilled); //not so nice!
+
 		// It is initialized with all zeros
 		System.out.println("The array is " + Arrays.toString(arrayToBeFilled));//a nice way to print the values of an array
+
 		/*
 		 * toString(Array arrayToBeFilled) is a static method of the class Arrays. Note: this is not a method called by the
 		 * array (object) arrayToBeFilled: indeed arrayToBeFilled is its argument

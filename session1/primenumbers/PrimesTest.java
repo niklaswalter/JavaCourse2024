@@ -4,7 +4,7 @@ public class PrimesTest {
 
 	public static void main(String[] args) {
 		
-		int numberToBeChecked = 1;
+		int numberToBeChecked = 10;
 
 		PrimesCheck checker = new PrimesCheck();
 

@@ -6,7 +6,11 @@ public class CheckDivisibleSol {
 	int divisor = 2;
 
 	void check() {
-		/* your code */
+		if (dividend % divisor != 0){
+			System.out.println("Not divisible");
+		}
+		else {
+			System.out.println("It is divisible");
+		}
 	}
-	
 }

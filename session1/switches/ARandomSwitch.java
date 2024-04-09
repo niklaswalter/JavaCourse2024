@@ -17,7 +17,7 @@ public class ARandomSwitch {
 		 * occurs, the default statement executes.
 		 */
 		case 0:
-			System.out.println("The selected number has been evented by the Arabs");
+			System.out.println("The selected number has been invented by the Arabs");
 			break; // the break causes execution to jump to the end of the switch body.
 
 		case 2:
@@ -33,14 +33,13 @@ public class ARandomSwitch {
 			break;
 
 		default: // if no match occurs
-			System.out.println("The selected number is odd ");
+			System.out.println("The selected number is odd");
 			/*
 			 * The last statement, following the default, does not have a break because the
 			 * execution just falls through to where the break would have taken it anyway.
 			 * You could put a break at the end of the default statement with no harm if you
 			 * considered it important for style’s sake.
 			 */
-
 		}
 	}
 }
