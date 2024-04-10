@@ -6,6 +6,7 @@ package session2.oophelloworldwithconstructor;
  * printMessage() and printMessageWithArgument(String message).
  *
  */
+
 public class MessageWithConstructor {
 
 	String messageToBePrinted = "Standard message, which can be modified";

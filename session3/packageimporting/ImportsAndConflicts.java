@@ -5,7 +5,6 @@ package session3.packageimporting;
  * Both these packages have a Vector class.
  */
 import java.util.*;
-
 import session3.useful.*;
 
 
@@ -22,7 +21,7 @@ public class ImportsAndConflicts {
 	public static void main(String[] args) {
 		/*
 		 * I can use this class because I imported all the classes in
-		 * com.andreamazzon.session3.useful
+		 * session3.useful
 		 */
 		Print.printn("A simpler way to print");
 		/*
@@ -41,7 +40,7 @@ public class ImportsAndConflicts {
 		
 		//java.util.Vector secondVector = new java.util.Vector(); 
 		
-		//com.andreamazzon.session3.useful.Vector thirdVector = new com.andreamazzon.session3.useful.Vector(); 
+		//session3.useful.Vector thirdVector = new session3.useful.Vector();
 	}
 
 }

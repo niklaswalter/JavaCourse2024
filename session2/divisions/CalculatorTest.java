@@ -44,8 +44,8 @@ public class CalculatorTest {
 		 * Now static method: these are values passed to the method, which does not depend on the values of non-static
 		 * fields of the class.
 		 */
-		double newDividend = 4.5;
-		double newDivisor = 1.5;
+		double newDividend = 4.2;
+		double newDivisor = 2;
 
 		// note: to call this static method we don't have to construct a specific object of the class
 		double result = Calculator.computeRatio(newDividend, newDivisor);// called just by typing the name of the class

@@ -7,6 +7,7 @@ package session2.bankaccount;
  * overloaded constructors: if the commission is not given, its default value is
  * zero
  */
+
 public class RiskFreeSaving {
 
 	double annualRiskFreeRate;
@@ -32,7 +33,7 @@ public class RiskFreeSaving {
 		 * We have seen that even if we don't initialize it, it would still be zero, but
 		 * this would not be nice coding style.
 		 */
-		commission = 0;
+		commission = 0.0;
 	}
 
 

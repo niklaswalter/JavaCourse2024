@@ -24,7 +24,7 @@ public class Calculator {
 	}
 
 	/*
-	 * This is method cannot be static: it has access to the (non -tatic) fields of
+	 * This is method cannot be static: it has access to the (non-static) fields of
 	 * the class, it depends on the state of every object of the class
 	 */
 	double divideBy(double divisor) {

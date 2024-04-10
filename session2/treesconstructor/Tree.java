@@ -12,7 +12,7 @@ public class Tree {
 	double height;
 
 	// constructor with a double argument
-	Tree(double heightOfTheNewTree) {
+	Tree(double height_) {
 		System.out.println("A new tree is planted");
 		/*
 		 * Note: Height is the name of field of the class; heightOfTheNewTree is the
@@ -20,7 +20,7 @@ public class Tree {
 		 * both refer to the argument variable, and the assignment has no effect. We
 		 * will see a way to solve this problem. 
 		 */
-		height = heightOfTheNewTree;
+		height = height_;
 	}
 	
 	/*

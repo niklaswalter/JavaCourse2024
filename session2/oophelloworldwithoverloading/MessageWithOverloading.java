@@ -29,7 +29,7 @@ public class MessageWithOverloading {
 	/*
 	 * Overloaded constructor: in this case, it has a list with one argument. Note that it has
 	 * same name of the default constructor but different argument list. This is fine because the
-	 * "signature" of a methid is indeed constituted by its name and its argument list.
+	 * "signature" of a method is indeed constituted by its name and its argument list.
 	 */
 	MessageWithOverloading(String message) {
 		// side effect

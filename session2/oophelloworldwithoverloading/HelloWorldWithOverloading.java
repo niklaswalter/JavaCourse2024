@@ -28,6 +28,7 @@ public class HelloWorldWithOverloading {
 		// here we have two methods doing the same thing in different ways: we overload
 		myOtherMessage.printMessage();
 		myOtherMessage.printMessage("Good evening!");
+		myOtherMessage.printMessage();
 	}
 
 }

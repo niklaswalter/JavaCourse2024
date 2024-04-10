@@ -33,8 +33,8 @@ public class RiskFreeSavingWithThis {
 
 	// when the commission is not given, it is supposed to be zero.
 	RiskFreeSavingWithThis(double annualRiskFreeRate) {
-		//this.annualRiskFreeRate = annualRiskFreeRate;
-		//this.commission = 0;
+		// this.annualRiskFreeRate = annualRiskFreeRate;
+		// this.commission = 0;
 		/*
 		 * Here we see another use of this: it makes it possible to call a constructor
 		 * from an overloaded constructor. In this way, we don't have to bother to set
