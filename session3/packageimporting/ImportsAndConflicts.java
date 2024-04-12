@@ -34,13 +34,13 @@ public class ImportsAndConflicts {
 		 * try to comment it out: there's a collision because Vector is contained in both
 		 * the packages.
 		 */
-		//Vector v1 = new Vector(); 
+		//Vector v1 = new Vector();
 		
 		//I can do that:
 		
-		//java.util.Vector secondVector = new java.util.Vector(); 
+		java.util.Vector secondVector = new java.util.Vector();
 		
-		//session3.useful.Vector thirdVector = new session3.useful.Vector();
+		session3.useful.Vector thirdVector = new session3.useful.Vector();
 	}
 
 }

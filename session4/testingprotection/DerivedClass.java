@@ -18,7 +18,7 @@ public class DerivedClass extends ParentClassOtherPackage {
 		 * i gets inherited from the base class: it is defined in the base class.
 		 * However, its value can be set from outside the package of the class where it
 		 * is defined only because it is protected. Try to go in ProtectedOtherPackage and
-		 * make it with just package access. You see hat now you get an error here.
+		 * make it with just package access. You see that now you get an error here.
 		 */
 		this.i = i;
 	}
@@ -38,7 +38,7 @@ public class DerivedClass extends ParentClassOtherPackage {
 		 * computeDouble() gets inherited from the base class: it is defined in the base
 		 * class. However, it can be called from outside the package of the class where
 		 * it is defined because it is protected. Try to go in ProtectedOtherPackage and
-		 * make it with just package access. You see hat now you get an error here.
+		 * make it with just package access. You see that now you get an error here.
 		 */
 		computeAndSetDouble();
 		printn("The sin of 2i is " + Math.sin(i));
@@ -49,7 +49,7 @@ public class DerivedClass extends ParentClassOtherPackage {
 	 */
 	public void computeAndPrintSinOfHalf() {
 		// you can't call computeAndSetHalf() because it is not protected!
-		//computeAndSetHalf();
+		// computeAndSetHalf();
 		printn(Math.sin(i));
 	}
 }

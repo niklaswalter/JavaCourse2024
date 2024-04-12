@@ -1,7 +1,6 @@
 package session3.encapsulation.lazyinitialization;
 
 import static session3.useful.Print.printn;
-
 import java.util.Arrays;
 
 /**
@@ -11,9 +10,10 @@ import java.util.Arrays;
  */
 
 public class PseudoRandomNumbersTesting {
+
 	public static void main(String[] args) {
 
-		long firstSeed = 1897;// the seed is the first entry of the sequence of pseudo random numbers
+		long firstSeed = 8;// the seed is the first entry of the sequence of pseudo random numbers
 
 		int numberOfPseudoRandomNumbers = 5;
 

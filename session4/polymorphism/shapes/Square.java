@@ -23,5 +23,4 @@ public class Square extends Shape {
 		System.out.println("Computing the area of this square..");
 		return side*side;
 	}
-
 }

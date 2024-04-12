@@ -109,7 +109,7 @@ public class BinomialModelSimulator {
 			for (int simulationIndex = 0; simulationIndex < numberOfSimulations; simulationIndex++) {
 				realizations[timeIndex][simulationIndex] = realizations[timeIndex - 1][simulationIndex]
 						* upsAndDowns[timeIndex - 1][simulationIndex];
-				// S(i+1)=S(i)M(I)
+				// S(i+1)=S(i)M(i)
 			}
 		}
 	}

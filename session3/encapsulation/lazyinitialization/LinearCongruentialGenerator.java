@@ -5,12 +5,12 @@ package session3.encapsulation.lazyinitialization;
  * random number generator: as you will see, a linear congruential random number
  * generator produces natural numbers
  *
- * x[i+1] =(a*x[i] + c) mod_m,
+ * x[i+1] = (a * x[i] + c) mod m,
  *
  * where x[0] = seed, for appropriate values of natural numbers a, c and m
  * (for big m). You will see that it is not optimal because the numbers exhibit
  * serial correlation, but it's not the main point now. This is indeed an
- * example to show the so called "lazy initialization", again by making some
+ * example to show the so-called "lazy initialization", again by making some
  * methods and fields of the class private.
  *
  * We have a method generate() which generates all the sequence (i.e., an array),
@@ -26,7 +26,7 @@ package session3.encapsulation.lazyinitialization;
  * generate() private, as well as the sequence itself.
  *
  * Another thing you see for the first time is the primitive data type long,
- * which expresses an integer number as int does but whose values have an higher
+ * which expresses an integer number as int does but whose values have a higher
  * range: it ranges in [-2^63, 2^63-1], whereas int in [-2^31,2^31-1]
  *
  */
@@ -36,7 +36,7 @@ public class LinearCongruentialGenerator {
 	// note: all fields are private!
 	private long[] randomNumbers;// array of long
 	// upcasting necessary, the result of Math.pow(2, 48) is understood as an int
-	private final long modulus = (long) Math.pow(2, 48); 
+	private final long modulus = (long) Math.pow(2, 48);
 	private final long a = 25214903917L; // if we don't put L after the number, it will complain that is out of range
 	private final long c = 11;// automatic upcasting
 	private long seed; // it will be the first entry of our pseudo random number list

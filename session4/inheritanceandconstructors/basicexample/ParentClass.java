@@ -6,7 +6,6 @@ package session4.inheritanceandconstructors.basicexample;
  */
 
 public class ParentClass{
-	ParentClass(){
-		System.out.println("Parent constructor");
-	}
+
+	ParentClass(){System.out.println("Parent constructor");}
 }

@@ -9,6 +9,7 @@ import static session3.useful.Print.printn;
  */
 
 public class ClientUsingComplexNumbers {
+
 	public static void main(String[] args) {
 
 		//note: we can not use the (private!) constructor
@@ -29,7 +30,6 @@ public class ClientUsingComplexNumbers {
 		print(" is ");
 		conjugate.showWithNewLine();
 
-
 		//we compute and print the product with the conjugate
 		ComplexNumber product = complexNumber.product(conjugate);
 		print("The product of ");
@@ -40,7 +40,7 @@ public class ClientUsingComplexNumbers {
 //		//note: we can not use the (private!) constructor
 		ComplexNumber newComplexNumber = ComplexNumber.setComplexNumber(1.0, 2.0);
 
-		
+
 		//we compute and print the sum of the two complex numbers
 		print("The sum of ");
 		complexNumber.show();
@@ -49,7 +49,6 @@ public class ClientUsingComplexNumbers {
 		print( " is ");
 		//another way to do that: multiple calls
 		complexNumber.sum(newComplexNumber).showWithNewLine();
-
 
 	}
 }

@@ -38,7 +38,7 @@ public class ArrayRandom {
 
 		System.out.println();
 		// length field of an array! Of course an array is an object
-		System.out.println("The length of the array is "+ arrayToBeFilled.length);
+		System.out.println("The length of the array is " + arrayToBeFilled.length);
 		System.out.println();
 		
 		//note: int i=0; i<arrayToBeFilled.length: the first element is a[0]

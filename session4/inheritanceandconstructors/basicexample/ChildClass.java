@@ -6,9 +6,9 @@ package session4.inheritanceandconstructors.basicexample;
  *
  */
 
-public class DerivedClass extends ParentClass {
+public class ChildClass extends ParentClass {
 
-	DerivedClass() {
+	ChildClass() {
 		/*
 		 * The constructor super() of the parent class is called implicitly: when you
 		 * create an object of the derived class, it will automatically contain a

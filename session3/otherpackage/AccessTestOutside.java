@@ -7,7 +7,7 @@ import session3.accesslevels.*;
 
 /**
  * This class shows the difference between package access and public access: we try to call methods of the class
- * com.andreamazzon.session3.accesslevels.Access() and see what happens
+ * session3.accesslevels.Access() and see what happens
  */
 
 public class AccessTestOutside {
@@ -19,13 +19,13 @@ public class AccessTestOutside {
 		 * inside a method of a class which is in another package with respect to that of 
 		 * Access.
 		 */
-		//access.packageAccessMethod(); 
-		//access.privateMethod();
+		// access.packageAccessMethod();
+		// access.privateMethod();
 		access.publicMethod();
-		//print(access.packageAccessField); // this field has package access! it is not possible to access it from here
+		// print(access.packageAccessField); // this field has package access! it is not possible to access it from here
 		print(access.publicField);
-		//this class has package access! it is not possible to construct new objects of the class from here
-		//PackageAccessOnly packageAccessOnly = new PackageAccessOnly();
+		// this class has package access! it is not possible to construct new objects of the class from here
+		// PackageAccessOnly packageAccessOnly = new PackageAccessOnly();
 	}
 
 }

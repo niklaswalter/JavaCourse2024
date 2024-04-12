@@ -5,7 +5,6 @@ import static session3.useful.Print.printn;
 /**
  * This class inherits from Amphibian (a frog is an amphibian) and overrides the three methods swimming(),
  * walking() and creaking().
- *
  */
 
 public class Frog extends Amphibian{

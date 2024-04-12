@@ -15,11 +15,11 @@ package session3.privateconstructor.enhancedmortgages;
  */
 public class MortgagesMain {
 
-	public static void main(String[] striings){
+	public static void main(String[] strings){
 		Mortgage firstCustomer = Mortgage.constructMortgage("Smith", 35, 3E5);
-		Mortgage secondCustomer = Mortgage.constructMortgage("Muller", 42, 2E5);
-		Mortgage thirdCustomer = Mortgage.constructMortgage("Bianchi", 19, 1.3E5);
-		Mortgage fourthCustomer = Mortgage.constructMortgage("Lopez", 37, 3.4E5);
+		Mortgage secondCustomer = Mortgage.constructMortgage("Muller", 42, 1E5);
+		Mortgage thirdCustomer = Mortgage.constructMortgage("Bianchi", 19, 2.0E5);
+		Mortgage fourthCustomer = Mortgage.constructMortgage("Lopez", 37, 1E5);
 		Mortgage fifthCustomer = Mortgage.constructMortgage("Favre", 39, 2.1E5);
 	}
 }

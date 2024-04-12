@@ -5,15 +5,12 @@ import static session3.useful.Print.printn;
 /**
  * Another, bad way to use the implementation of the method startEngine() of the class Engine.
  * It works, but it is not nice
- * 
- * @author Andrea Mazzon
  *
  */
 public class BadImplementationOfCar extends Engine {
 
 	private int age; // specific field of this class
 	private int horsePower; // specific field of this class
-
 
 	BadImplementationOfCar(int age, int horsePower) {
 		this.age = age;

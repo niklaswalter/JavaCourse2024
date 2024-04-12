@@ -26,11 +26,11 @@ public class AccessTest {
 		 */
 		access.packageAccessField = 2;
 		
-		//access.privateField = 2;//this field is private! Not possible to access it from outside the class
+		// access.privateField = 2;//this field is private! Not possible to access it from outside the class
 
 		access.publicMethod();//fine, this method is public: it can be called from anywhere
 		access.packageAccessMethod();//fine, this method has no access modifier: it can be called from inside the package
-		//access.privateMethod(); //this method is private! Not possible to call it from outside the class
+		// access.privateMethod(); //this method is private! Not possible to call it from outside the class
 
 		printn("The package access field is " + access.packageAccessField);
 		printn("The public access field is " + access.publicField);
@@ -39,7 +39,7 @@ public class AccessTest {
 		PackageAccessOnly packageAccessOnly = new PackageAccessOnly();//the package access class can be created
 		/*
 		 * but look what happens when we try to construct objects of this class from
-		 * com.andreamazzon.session3.otherpackage.AccessTestOutside
+		 * session3.otherpackage.AccessTestOutside
 		 */
 	}
 }

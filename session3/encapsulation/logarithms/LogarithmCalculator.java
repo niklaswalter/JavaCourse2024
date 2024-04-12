@@ -3,7 +3,7 @@ package session3.encapsulation.logarithms;
 import session3.useful.Print;
 
 /**
- * This class illustrates an use of encapsulation, i.e., wrapping data and
+ * This class illustrates a use of encapsulation, i.e., wrapping data and
  * methods within classes in combination with access control.
  * In particular, its task is the computation of the logarithm of a given number.
  * We want this number to be positive, because the logarithm of a negative number

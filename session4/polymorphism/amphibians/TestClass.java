@@ -19,7 +19,7 @@ public class TestClass {
 		frog.creaking();
 		
 		System.out.println();
-		
+
 		Frog secondFrog = new Frog();
 
 		System.out.println();
@@ -29,7 +29,7 @@ public class TestClass {
 		
 		System.out.println();
 		
-		//secondFrog.frogMethod();
+		secondFrog.frogMethod();
 		
 		System.out.println();
 		
@@ -38,8 +38,7 @@ public class TestClass {
 		System.out.println();
 				
 		Amphibian.behavior(toad);
-		
-		
+
 		Amphibian anotherToad = new Toad();
 		
 		anotherToad.creaking();
@@ -47,6 +46,7 @@ public class TestClass {
 		Amphibian amphibian = new Amphibian();
 		
 		amphibian.creaking();
-		
+
+
 	}
 }

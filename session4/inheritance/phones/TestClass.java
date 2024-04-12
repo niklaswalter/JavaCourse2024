@@ -8,6 +8,7 @@ import static session3.useful.Print.printn;
  */
 
 public class TestClass {
+
 	public static void main(String[] args) {
 
 		printn("FIRST THE BASE CLASS:");
@@ -20,7 +21,7 @@ public class TestClass {
 		normalPhone.checkIfSmartphone();
 		printn();
 		printn();
-		//normalPhone.goOnInternet();//error! this is a method of the derived class only
+		// normalPhone.goOnInternet();//error! this is a method of the derived class only
 
 		printn("THEN THE DERIVED CLASS:");
 		printn();
@@ -56,5 +57,5 @@ public class TestClass {
 		printn();
 		//anotherSmartphone.goOnInternet(); //it cannot
 		anotherSmartphone.checkIfSmartphone();
-			}
+	}
 }

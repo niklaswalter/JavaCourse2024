@@ -1,11 +1,11 @@
 package session3.privateconstructor.enhancedmortgages;
 
 /**
- * This class is strictly related to com.andreamazzon.session2.mortgages.Mortgage, that was an example of a
+ * This class is strictly related to session2.mortgages.Mortgage, that was an example of a
  * possible use of static fields in order to know the total amount of money we lend to clients. We had a static field
  * loansSum whose value was therefore shared by all the objects of Mortgage and got incremented every time
  * such an object is created. We had printed a warning message as soon as the value of this field was bigger than
- * a maximum. However, we could not find a a way to prevent the possibility to produce more object after that time.
+ * a maximum. However, we could not find a way to prevent the possibility to produce more object after that time.
  * A solution is now to have a private constructor, which is called only if loansSum <= budget.
  *
  */
@@ -21,7 +21,7 @@ public class Mortgage {
 
 	//constructor
 	private Mortgage(String name, int age, double amount) {
-		this.name = name; // note the use of this
+		this.name = name;
 		this.age = age;
 		this.amount = amount;
 

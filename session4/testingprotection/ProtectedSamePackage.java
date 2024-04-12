@@ -12,11 +12,11 @@ import static session3.useful.Print.printn;
 
 public class ProtectedSamePackage {
 	
-	protected int j = 6;
+	protected int i = 6;
 
 	protected void computeAndSetDouble() {
 		printn("A protected method in the same package. You can call it");
-		j = j * 2;
+		i *= 2;
 	}
 
 }

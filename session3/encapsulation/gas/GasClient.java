@@ -9,6 +9,7 @@ import static session3.useful.Print.printn;
  */
 
 public class GasClient {
+
 	public static void main(String[] args) {
 		double heliumBoilingPoint = - 452.0;  //in Fahrenheit: this is how the client works with our class
 		Gas helium = new Gas(); //new object of type Gas

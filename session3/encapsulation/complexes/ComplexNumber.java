@@ -5,7 +5,7 @@ import static session3.useful.Print.printn;
 
 /**
  * This class illustrates some uses of Encapsulation and some of the things we have seen so far.
- * We want to perform operations with complex numbers for an user who only understands Cartesian coordinates.
+ * We want to perform operations with complex numbers for a user who only understands Cartesian coordinates.
  * However, we think that some of the operations are more easily implemented by using the Polar representation.
  * We then work with polar coordinates, hiding the conversions from Cartesian to polar coordinates and vice-versa.
  */
@@ -24,9 +24,9 @@ public class ComplexNumber {
 	 * when we want to construct an object of this type (i.e., with polar coordinates) from the cartesian coordinates
 	 * the user gives.
 	 */
-	private  ComplexNumber(double r, double theta) { //Constructor for internal use
-		this.r=r;
-		this.theta=theta;
+	private ComplexNumber(double r, double theta) { //Constructor for internal use
+		this.r = r;
+		this.theta = theta;
 	}
 
 	/*
@@ -47,9 +47,9 @@ public class ComplexNumber {
 	}
 
 	/*
-	 * We translate from the polar coordinates of the object which is calling the method to cartesian ones
+	 * We translate from the polar coordinates of the object which is calling the method to Cartesian ones
 	 * (in order to give back the coordinates that the user knows or in order to perform operations which
-	 * are simpler in cartesian coordinates). These methods are public because maybe the user wants to 
+	 * are simpler in Cartesian coordinates). These methods are public because maybe the user wants to
 	 * get the real and imaginary part of a complex number. However, they can also be used internally.
 	 */
 	/**
@@ -137,7 +137,6 @@ public class ComplexNumber {
 		return (getImaginaryPart() >= 0) ?  "+ ": "- ";
 	}
 
-
 	/*
 	 * Here we have methods that the user calls in order to visualize the complex number
 	 * in cartesian coordinates. 
@@ -146,7 +145,7 @@ public class ComplexNumber {
 	 * prints a complex number in cartesian coordinates
 	 */
 	public void show(){//a + b i
-		if (getImaginaryPart() !=0.0){
+		if (getImaginaryPart() != 0.0){
 			print(getRealPart() + " " + imaginarySign() //gets the right sign before the imaginary unit
 			+ Math.abs(getImaginaryPart()) + " i ");
 		}

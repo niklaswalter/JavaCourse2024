@@ -5,10 +5,10 @@ package session3.encapsulation.travelspeed;
  * We imagine that a client gives us a distance that he/she traveled and the
  * time needed to travel that distance, and we have to give back the average
  * speed.
- * Suppose that our first version had everything in km, but that for some reasons
+ * Suppose that our first version had everything in km, but that for some reason
  * we have now to move to miles. However, we don't want that our client has to
  * change the own code.
- * Therefore we need to implement a transformation method that translates from
+ * Therefore, we need to implement a transformation method that translates from
  * km to miles and vice versa. Moreover, we have to prevent the user to directly
  * access the fields of the class, because we want them to always be in miles.
  * We then make them private, and write getters and setters which use the
@@ -22,7 +22,7 @@ public class TravelSpeed {
 
 	/*
 	 * We don't want our client to be able to directly set the values of this
-	 * fields, as we want it to be expressed in miles.
+	 * field, as we want it to be expressed in miles.
 	 */
 	private double distance;// miles
 	/*
@@ -55,7 +55,7 @@ public class TravelSpeed {
 
 	/*
 	 * We want the user to be able to give us a new distance as well, replacing the
-	 * one given in the constructor. But we want to able to have CONTROL on how the user
+	 * one given in the constructor. But we want to be able to have CONTROL on how the user
 	 * does this.
 	 */
 	/**
