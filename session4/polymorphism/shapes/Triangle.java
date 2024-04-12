@@ -24,7 +24,7 @@ public class Triangle extends Shape {
 	@Override
 	public double computeArea() {
 		System.out.println("Computing the area of this triangle..");
-		return basis*height/2;
+		return basis * height / 2;
 	}
 
 }

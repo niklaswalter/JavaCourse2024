@@ -21,6 +21,6 @@ public class Square extends Shape {
 	@Override
 	public double computeArea() {
 		System.out.println("Computing the area of this square..");
-		return side*side;
+		return side * side;
 	}
 }
