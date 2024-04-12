@@ -1,4 +1,4 @@
-package session4.polymorphism.shapes_exercise.shapes;
+package session4.polymorphism.shapes_exercise;
 
 /**
  * Particular kind of shape, for which we know how to compute the area, i.e.,

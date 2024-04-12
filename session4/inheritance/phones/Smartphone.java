@@ -11,25 +11,23 @@ import static session3.useful.Print.printn;
 
 public class Smartphone extends Phone {
 
-	
 	Smartphone() { //it automatically calls also the constructor of the base class
 		printn("But also to navigate on internet");
 		isSmartphone = true;
 	}
-	
-	
+
 	/*
 	 * First example of overriding here: we give another implementation to a method of the
 	 * base class. The annotation @override is there to let Java give us a compilation error
 	 * if we are actually not overriding any method of the base class (maybe because of a typo).
 	 */
 	@Override
-	protected void call() {
+    protected void call() {
 		super.call();//call to the method of the parent class
 		printn("I also have the possibility to video call"); 
 	}
 
-	
+
 	//methods specifically defined in this class: not inherited nor overridden
 	void goOnInternet() { // this is a specific method of the derived class
 		printn("I am navigating on Internet");

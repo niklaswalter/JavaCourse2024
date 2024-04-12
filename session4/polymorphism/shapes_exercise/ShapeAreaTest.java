@@ -19,7 +19,6 @@ import static session3.useful.Print.printn;
 
 public class ShapeAreaTest {
 
-
 	public static void main(String[] args) {
 
 		double basisOfTriangle = 10;

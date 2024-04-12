@@ -10,8 +10,7 @@ import static session3.useful.Print.printn;
 
 public class Toad extends Amphibian{
 
-	public Toad(){
-		printn("I am a toad");}
+	public Toad(){printn("I am a toad");}
 
 	
 	@Override

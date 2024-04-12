@@ -55,7 +55,7 @@ public class TestClass {
 		printn();
 		anotherSmartphone.call();
 		printn();
-		//anotherSmartphone.goOnInternet(); //it cannot
+		// anotherSmartphone.goOnInternet(); //it cannot
 		anotherSmartphone.checkIfSmartphone();
 	}
 }

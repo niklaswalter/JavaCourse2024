@@ -22,6 +22,7 @@ public class Sportsman {
 	 * Try to uncomment it: if you do so, you don't need to explicitly call the
 	 * super constructor in the derived class
 	 */
+
 	//Sportsman() {
 	//	printn("Default parent constructor");
 	//}

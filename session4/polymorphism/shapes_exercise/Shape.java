@@ -1,4 +1,4 @@
-package session4.polymorphism.shapes_exercise.shapes;
+package session4.polymorphism.shapes_exercise;
 
 /**
  * This is a base class from which the three classes Circle, Square and Triangle inherit. It has a computeArea
@@ -8,7 +8,7 @@ package session4.polymorphism.shapes_exercise.shapes;
 public class Shape {
 	
 	/**
-	 * It computes and returns the area of the specific shape calling the method. The result "nakes sense"
+	 * It computes and returns the area of the specific shape calling the method. The result "makes sense"
 	 * only for derived classes. 
 	 * 
 	 * @return the value of the area

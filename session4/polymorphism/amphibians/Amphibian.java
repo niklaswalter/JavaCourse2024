@@ -17,7 +17,6 @@ import static session3.useful.Print.printn;
 
 public class Amphibian{
 
-	
 	public void swimming(){
 		printn("Amphibian swimming");
 	};
