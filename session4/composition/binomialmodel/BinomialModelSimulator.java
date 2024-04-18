@@ -20,10 +20,12 @@ import session4.usefulmatrices.UsefulMethodsMatricesVectors;
  * We will see how a random variable can be implemented in the Finmath library.
  *
  */
+
 //S[i][j]=S(i,omega(j))
 
 //S(i+1,omega(j)) = u*S(i,omega(j)) or d*S(i,omega(j))
 //S(i+1,omega(j)) = M(i,omega(j))*S(i,omega(j)),  where M(i,omega(j)) = u or d
+
 public class BinomialModelSimulator {
 	private double initialValue; // S(0)
 	private double increaseIfUp; // this is u>1+r

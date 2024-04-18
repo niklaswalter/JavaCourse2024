@@ -16,7 +16,7 @@ public class SecondParentClass {
 
 	/*
 	 * Look at the constructor of the other class, where i is set to be 1: this can
-	 * bring to a a conflict!
+	 * lead to a conflict!
 	 */
 	public SecondParentClass() {
 		i = 2;

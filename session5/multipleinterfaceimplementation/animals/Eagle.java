@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.multipleinterfaceimplementation.animals;
+package session5.multipleinterfaceimplementation.animals;
 
 /**
  * A class which implements the AnimalThatFlies interface, and therefore in particular
  * the fly() method
- *
- * @author Andrea Mazzon
  *
  */
 public class Eagle implements AnimalThatFlies {

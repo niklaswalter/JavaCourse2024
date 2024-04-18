@@ -1,9 +1,7 @@
-package com.andreamazzon.session5.inheritinginterfaces;
+package session5.inheritinginterfaces;
 
 /**
  * A class, implementing no interface.
- *
- * @author Andrea Mazzon
  *
  */
 public class FirstClass {

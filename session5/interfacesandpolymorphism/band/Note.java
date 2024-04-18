@@ -1,4 +1,4 @@
-package com.andreamazzon.session5.interfacesandpolymorphism.band;
+package session5.interfacesandpolymorphism.band;
 
 /**
  * Note is an enum type: it is useful when you have to group together and use a
@@ -8,8 +8,6 @@ package com.andreamazzon.session5.interfacesandpolymorphism.band;
  * like ordinal(), to indicate the declaration order of a particular enum
  * constant, and values(), a method that produces an array of values of the enum
  * constant in the order they are declared.
- *
- * @author Andrea Mazzon
  *
  */
 public enum Note {

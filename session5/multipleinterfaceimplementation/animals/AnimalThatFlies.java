@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.multipleinterfaceimplementation.animals;
+package session5.multipleinterfaceimplementation.animals;
 
 /**
  * Interface with two methods, fly() and eat(). The eat() method is also a
  * method of AnimalThatSwims.
- *
- * @author Andrea Mazzon
  *
  */
 public interface AnimalThatFlies {
@@ -13,5 +11,5 @@ public interface AnimalThatFlies {
 
 	void eat();
 
-	//double interfaceField = 10;
+	// double interfaceField = 10;
 }

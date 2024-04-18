@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.multipleinterfaceimplementation.animals;
+package session5.multipleinterfaceimplementation.animals;
 
 /**
  * A class which implements the CanSwim interface, and therefore in particular
  * the swim() method
- *
- * @author Andrea Mazzon
  *
  */
 public class Fish implements AnimalThatSwims {

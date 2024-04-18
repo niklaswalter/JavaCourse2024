@@ -10,7 +10,7 @@ public class DescribeCurrency {
 
 	// private: we access its value with the getter and the setter
 	private Currency describedCurrency; // you can associate to it a value of the enum type
-	// which is what you do here for example (no meaningful in this case, just to show you..)
+	// which is what you do here for example (no meaningful in this case, just to show you...)
 	private Currency anotherCurrency = Currency.EURO;// EURO is a static field! We access it with the name of the class
 
 	// getter

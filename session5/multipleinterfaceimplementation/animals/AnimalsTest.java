@@ -1,11 +1,9 @@
-package com.andreamazzon.session5.multipleinterfaceimplementation.animals;
+package session5.multipleinterfaceimplementation.animals;
 
 /**
  * This class tests how multiple implementation works. Note that an object of
  * type Duck can be passed to both the methods makeSwim() and makeFly() (again
  * polymorphism here!)
- *
- * @author Andrea Mazzon
  *
  */
 public class AnimalsTest {
@@ -26,5 +24,6 @@ public class AnimalsTest {
 		makeFly(anEagle);// upcasting
 		makeFly(aDuck);// upcasting
 		makeSwim(aDuck);// upcasting
+		aDuck.eat();
 	}
 }

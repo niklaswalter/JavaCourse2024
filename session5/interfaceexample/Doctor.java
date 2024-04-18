@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.interfaceexample;
+package session5.interfaceexample;
 
 /**
  * This class implements the interface Cure, and gives indeed an implementation to
  * the two methods defined in Cure.
- *
- * @author Andrea Mazzon
  *
  */
 public class Doctor implements Cure {
@@ -22,7 +20,7 @@ public class Doctor implements Cure {
 
 	@Override
 	public void heal() {
-		System.out.println("Take some aspirines!");
+		System.out.println("Take some pills!");
 	}
 
 	// however, it can also have some own methods:

@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.interfaceexample;
+package session5.interfaceexample;
 
 /**
  * This class implements the interface Cure, and gives indeed an implementation to
  * the two methods defined in Cure.
- *
- * @author Andrea Mazzon
  *
  */
 public class Antivirus implements Cure {

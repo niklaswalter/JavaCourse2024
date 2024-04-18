@@ -6,6 +6,7 @@ package session5.enumtype.currencies;
  */
 
 public class CurrencyTester {
+
 	public static void main(String[] args) {
 
 		DescribeCurrency currencyDescribe = new DescribeCurrency();

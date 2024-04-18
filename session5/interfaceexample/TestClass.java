@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.interfaceexample;
+package session5.interfaceexample;
 
 
 /**
  * In this class we test the features of polymorphism with interfaces
- *  
- * @author Andrea Mazzon
  *
  */
 public class TestClass {

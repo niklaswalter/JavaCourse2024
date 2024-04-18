@@ -1,11 +1,9 @@
-package com.andreamazzon.session5.inheritinginterfaces;
+package session5.inheritinginterfaces;
 
 /**
  * This class MUST implement firstMethod(), secondMethod() (that InheritingInterface has
- * inherited from FirstInterface and SecondInterface)nand thirdMethod(), which is an own method
+ * inherited from FirstInterface and SecondInterface) and thirdMethod(), which is an own method
  * of InheritingInterface. Moreover, it overrides (but is not forced to) aClassMethod().
- *
- * @author Andrea Mazzon
  */
 public class InheritingAndImplementingClass extends FirstClass implements InheritingInterface {
 

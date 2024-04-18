@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.interfacesandpolymorphism.band;
+package session5.interfacesandpolymorphism.band;
 
 /**
  * Class implementing the interface Instrument: it must implement the method
  * play(Note n)
- *
- * @author Andrea Mazzon
  *
  */
 public class Percussion implements Instrument {

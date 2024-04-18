@@ -2,7 +2,7 @@ package session5.abstractclasses.basicexample;
 
 /**
  * This class has a method callMethod which takes as an argument an object of a
- * class which EXTENDS AbstractBaseClass: as we see in line 20, it is indeed not
+ * class which EXTENDS AbstractBaseClass: as we see in line 25, it is indeed not
  * possible to create objects of the base, abstract class. Without polymorphism,
  * therefore, having a method with such an argument would be not possible.
  * Instead, thanks to late binding we are able to forget about the specific type
@@ -14,6 +14,7 @@ package session5.abstractclasses.basicexample;
  */
 
 public class OtherClass {
+
 	static void callMethod(AbstractBaseClass objectOfBaseClass) {
 		// abstractMethod is implemented in every class extending AbstractBaseClass
 		

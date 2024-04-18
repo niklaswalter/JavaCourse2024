@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.interfacesandpolymorphism.band;
+package session5.interfacesandpolymorphism.band;
 
 /**
  * It is implemented by Wind and Percussion. Woodwind extends Wind, so it also
  * implicitly implement Instrument.
- *
- * @author Andrea Mazzon
  *
  */
 public interface Instrument {

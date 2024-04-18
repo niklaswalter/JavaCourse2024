@@ -1,9 +1,7 @@
-package com.andreamazzon.session5.interfacesandpolymorphism.band;
+package session5.interfacesandpolymorphism.band;
 
 /**
  * This class extends Wind, so it implicitly implement Instrument.
- *
- * @author Andrea Mazzon
  *
  */
 public class Woodwind extends Wind {

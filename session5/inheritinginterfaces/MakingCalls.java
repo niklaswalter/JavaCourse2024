@@ -1,10 +1,8 @@
-package com.andreamazzon.session5.inheritinginterfaces;
+package session5.inheritinginterfaces;
 
 /**
  * This class illustrates how to work with multiple inheritance of interfaces, and how polymorphism
  * works in this case.
- *
- * @author Andrea Mazzon
  *
  */
 public class MakingCalls {

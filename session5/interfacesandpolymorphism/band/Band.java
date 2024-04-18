@@ -1,4 +1,4 @@
-package com.andreamazzon.session5.interfacesandpolymorphism.band;
+package session5.interfacesandpolymorphism.band;
 
 /**
  * This class has a static method that makes a specific type of Instrument
@@ -6,12 +6,10 @@ package com.andreamazzon.session5.interfacesandpolymorphism.band;
  * notes. Note that all the objects get upcasted to the interface they are
  * implementing when tune is called.
  *
- * @author Andrea Mazzon
- *
  */
 public class Band {
 	/*
-	 * Polymorphism: at compilation time, this method doesn’t care about the type of
+	 * Polymorphism: at compilation time, this method does not care about the type of
 	 * the instrument, so we can give it directly an Instrument reference. In this
 	 * way, when we add new types to the system it still works right, without any
 	 * need to change the code.
