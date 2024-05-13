@@ -22,7 +22,7 @@ public class TestClass {
 
 //		// it is able to call the class specific method because we gave it a reference to the class
 		doctorHouse.aDoctorMethod();
-		//mcAfee.aDoctorMethod();
+		// mcAfee.aDoctorMethod();
 //
 		System.out.println();
 //		// now let's see what happens when we give the reference to the interface

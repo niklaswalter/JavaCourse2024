@@ -6,5 +6,6 @@ package session5.inheritinginterfaces;
  *
  */
 public interface InheritingInterface extends FirstInterface, SecondInterface {
+
 	void thirdMethod();
 }

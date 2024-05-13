@@ -22,6 +22,6 @@ public class Duck implements AnimalThatSwims, AnimalThatFlies {
 	public void eat() {// methods defined in the interface have to be public!
 		System.out.println("A duck eats");
 		System.out.println(interfaceField);//POSSIBLE CONFLICT!
-		//interfaceField = 11; //not possible! It is implicitly final
+		// interfaceField = 11; //not possible! It is implicitly final
 	}
 }

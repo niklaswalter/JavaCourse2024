@@ -69,8 +69,8 @@ public class MakingCalls {
 		System.out.println();
 		ClassImplementingFirstInterface firstInterfaceObject = new ClassImplementingFirstInterface();
 		callerToFirstInterface(firstInterfaceObject);
-		//callerToSecondInterface(firstInterfaceObject);//FAIL!
-		//callerToInheritingInterface(firstInterfaceObject);//FAIL!
+		// callerToSecondInterface(firstInterfaceObject);//FAIL!
+		// callerToInheritingInterface(firstInterfaceObject);//FAIL!
 
 	}
 }
